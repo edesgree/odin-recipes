@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background-image: url("recipes/images/bg.webp");
+    background-repeat: repeat;
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+/*nav*/
+nav.nav-top ul {
+list-style-type: none;
+}
+nav.nav-top ul a{
+    color:rgb(255, 106, 0);
+}
+nav.nav-bottom {
+    padding: 4px 10px;
+    background-color: #fc8e55;
+
+}
+
+nav.nav-bottom a {
+    color: white;
+    text-decoration: none;
+}
+
+/*header*/
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    background-color: #fc8e55;
+    margin: 0;
+    padding: 20px;
+}
+
+header img {
+    margin: 20px 0;
+}
+
+/*article*/
+article, .container {
+    margin: 0 auto;
+    max-width: 500px;
+    background-color: rgb(240, 207, 156);
+    padding: 20px;
+}
+
+article aside {
+    float: right;
+
+    padding-left: 20px;
+}
+
+article aside img {
+    border-radius: 30px;
+    margin: 0 auto;
+    width: 200px;
+}
